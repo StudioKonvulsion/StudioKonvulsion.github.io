@@ -1,19 +1,23 @@
 ---
 import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE } from '../consts';
+import { HOMEPAGE_URL } from '../consts';
 ---
 
 <header class="fixed w-full pq2 z-20 backdrop-blur-md">
 	<div class="mx-auto max-w-3xl">
-		<h2>
-			{SITE_TITLE}
+
+	<nav class="flex items-center gap-3 text-base">
+		<h2 class="font-semibold tracking-tighter p-2 font-mplus text-lg">
+			S.M.A.R.T. Foundation
 		</h2>
-		<nav>
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/research">Research</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-			<HeaderLink href="/" target="_blank">Contact</HeaderLink>
-		</nav>
+			<div>
+				<HeaderLink href={HOMEPAGE_URL}>Home</HeaderLink>
+				<HeaderLink href="/research">Research</HeaderLink>
+				<HeaderLink href="/about">About</HeaderLink>
+				<HeaderLink href="/" target="_blank">Contact</HeaderLink>
+			</div>
+
+	</nav>
 	</div>
 </header>
 <style>

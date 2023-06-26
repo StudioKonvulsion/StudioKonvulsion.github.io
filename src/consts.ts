@@ -4,3 +4,4 @@
 export const SITE_TITLE = 'S.M.A.R.T. Foundation';
 export const SITE_DESCRIPTION = 'A website dedicated to looking after your eye health when using electronic devices';
 export const HOMEPAGE_URL = 'https://www.studiokonvulsion.com';
+export const CREATOR_URL = 'https://www.studiokonvulsion.com';
