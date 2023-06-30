@@ -2,6 +2,7 @@
 import HeaderLink from './HeaderLink.astro';
 import { HOMEPAGE_URL } from '../consts';
 import { IoHomeSharp, IoMailOpenSharp, IoInformationCircleSharp, IoBarChartSharp } from "react-icons/io5/index.js";
+import ThemeToggle from './ThemeToggleButton'
 ---
 
 <header class="fixed w-full pq2 z-20 backdrop-blur-md">
@@ -21,6 +22,7 @@ import { IoHomeSharp, IoMailOpenSharp, IoInformationCircleSharp, IoBarChartSharp
 					<HeaderLink href="/contact" target="_blank"><IoMailOpenSharp/>Contact</HeaderLink>
 				</div>
 					<div class="flex-1"></div>
+					<ThemeToggle client:load />
 		</nav>
 	</div>
 </header>
