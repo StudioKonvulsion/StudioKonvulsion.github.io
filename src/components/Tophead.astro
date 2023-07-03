@@ -1,8 +1,5 @@
 ---
-const isProd = import.meta.env.PROD
-const baseAssetUrl = isProd
-  ? 'https://www.studiokonvulsion.com'
-  : ''
+
 ---
 
 
@@ -15,7 +12,7 @@ const baseAssetUrl = isProd
               loop="loop"
               playsinline
               ><source
-                src={baseAssetUrl + '/computerTyping.webm'}
+                src={'/computerTyping.webm'}
                 type="video/webm; codecs=vp9"
               />
         </video>
