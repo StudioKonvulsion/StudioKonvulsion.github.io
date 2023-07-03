@@ -1,10 +1,3 @@
----
-const isProd = import.meta.env.PROD
-const baseAssetUrl = isProd
-  ? '/'
-  : ''
----
-
 
 <section class="relative mb-6 h-80 flex justify-center items-center">
         <div class="absolute w-full h-full overflow-hidden object-center">
@@ -15,7 +8,7 @@ const baseAssetUrl = isProd
               loop="loop"
               playsinline
               ><source
-                src={baseAssetUrl + '/computerTyping.webm'}
+                src={'/computerTyping.webm'}
                 type="video/webm; codecs=vp9"
               />
         </video>
