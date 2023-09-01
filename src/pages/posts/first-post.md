@@ -1,5 +1,5 @@
 ---
-description: Test
+description: Test description 1
 slug: testSlug?
 public: true
 layout: ../../layouts/BlogPost.astro
@@ -7,7 +7,7 @@ title: Testing of title
 createdAt: 0000000000000
 updatedAt: 0000000000000
 tags:
-  - TestForMenu
+  - TestForMenu 1
 heroImage: /laptop-performance.jpeg
 ---
 
