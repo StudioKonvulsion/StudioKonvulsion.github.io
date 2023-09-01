@@ -1,21 +1,21 @@
 ---
-description: Test descrpition 4
+description: Test description 4
 slug: testSlug?
 public: true
 layout: ../../layouts/BlogPost.astro
-title: Testing of title 4
+title: Test title 4
 createdAt: 0000000000000
 updatedAt: 0000000000000
 tags:
-  - TestForMenu 2
+  - Research 2.0
 heroImage: /laptop-performance.jpeg
 ---
 
 
-Testing this paragraph 1 because i dont know what to put here until i link it to wp headless so here is a useless link [This link will take you to goooooogle](https://www.google.com). Enjoy!!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. [Google](https://www.google.com).
 
 ![This is another picture ](/placeholder-hero.jpg)
 
-Another lot of text to see my format.Another lot of text to see my format.Another lot of text to see my format.Another lot of text to see my format.Another lot of text to see my format.Another lot of text to see my format.Another lot of text to see my format.Another lot of text to see my format.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![This is a social image](/laptop-performance.jpeg)
+![This is a social image](/placeholder-hero.jpg)
