@@ -9,7 +9,7 @@ import Content from '../components/Content.astro';
 import Tophead from '../components/Tophead.astro';
 import { Image } from '@astrojs/image/components'
 
-const posts = (await Astro.glob('../content/blog/*.md')).sort(
+const posts = (await Astro.glob('./posts/*.md')).sort(
   (a: any, b: any) =>
     new Date(b.frontmatter.createdAt).valueOf() -
     new Date(a.frontmatter.createdAt).valueOf()
