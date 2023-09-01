@@ -26,9 +26,10 @@ const posts = (await Astro.glob('./posts/*.md')).sort(
 		<Header title={SITE_TITLE} />
 			<main class="pt-[56px]">
 				<Tophead />
+				<Content>
 				<h1 class="font-mplus text-center">Protecting Your Eyesight While Using Computers.
 				</h1>
-				<Content>
+
 					<section>
 						<p class="mb-8 p-10">
 						Welcome to our website dedicated to promoting eye health for individuals who use computers regularly. Our site is dedicated to providing information, tips, and resources to help you maintain healthy eyes while using computers.
@@ -47,7 +48,6 @@ const posts = (await Astro.glob('./posts/*.md')).sort(
 								  <Image
 									class="border border-slate-300 dark:border-zinc-700 rounded-xl"
 									src={post.frontmatter.heroImage}
-									format="jpg"
 									width={720 * 2}
 									aspectRatio={2.0}
 									alt="Thumbnail"
