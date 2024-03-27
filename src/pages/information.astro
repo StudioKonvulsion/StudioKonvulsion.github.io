@@ -69,8 +69,8 @@ import Tophead from '../components/Tophead.astro';
 								<p class="mb-2 text-gray-500 dark:text-gray-400">text test 1</p>
 								<p class="mb-2 text-gray-500 dark:text-gray-400">text test 2</p>
 								<ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
-								  <li><a href="/contact" class="text-blue-600 dark:text-blue-500 hover:underline">Contact</a></li>
-								  <li><a href="/research" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Learn more</a></li>
+								  <li><a href="/contact" class=" hover:underline">Contact</a></li>
+								  <li><a href="/research" rel="nofollow" class="hover:underline">Learn more</a></li>
 								</ul>
 							  </div>
 							</div>
@@ -79,10 +79,36 @@ import Tophead from '../components/Tophead.astro';
 					</section>
 
 					<section>
-
-						
-
-
+						<aside class="p-4 my-8 bg-white border border-gray-200 rounded-lg shadow-md sm:p-6 lg:p-8 dark:bg-zinc-800 dark:border-gray-700" aria-label="Subscribe to the Self Preservation Newsletter">
+							<h3 class="mb-3 text-xl font-medium">Get more updates...</h3>
+							<p class="mb-5 text-sm font-medium">If you would like to know more about the Self Preservation Society and recommended tips on looking after your general health when using digital devices, sign up for our newsletter and you'll be among the first to find out about new research, tips, and online tools to help combat the risks.</p>
+							 <form action="https://app.convertkit.com/forms/6388169/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="6388169" data-uid="b90711744b" data-format="modal" data-version="5" data-options="{&quot;settings&quot;:{&quot;after_subscribe&quot;:{&quot;action&quot;:&quot;message&quot;,&quot;success_message&quot;:&quot;Success! Now check your email to confirm your subscription.&quot;,&quot;redirect_url&quot;:&quot;&quot;},&quot;analytics&quot;:{&quot;google&quot;:null,&quot;fathom&quot;:null,&quot;facebook&quot;:null,&quot;segment&quot;:null,&quot;pinterest&quot;:null,&quot;sparkloop&quot;:null,&quot;googletagmanager&quot;:null},&quot;modal&quot;:{&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;powered_by&quot;:{&quot;show&quot;:true,&quot;url&quot;:&quot;https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic&quot;},&quot;recaptcha&quot;:{&quot;enabled&quot;:false},&quot;return_visitor&quot;:{&quot;action&quot;:&quot;hide&quot;,&quot;custom_content&quot;:&quot;&quot;},&quot;slide_in&quot;:{&quot;display_in&quot;:&quot;bottom_right&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;sticky_bar&quot;:{&quot;display_in&quot;:&quot;top&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15}},&quot;version&quot;:&quot;5&quot;}" min-width="400 500 600 700 800">
+								<div data-style="clean" class="flex items-end mb-3">
+									<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+									<div data-element="fields" data-stacked="false" class="flex items-center w-full max-w-md mb-3 seva-fields formkit-fields">
+										<div class="relative w-full mr-3 formkit-field">
+											<label for="member_email" class="hidden block mb-2 text-sm font-medium">Email address</label>
+											<div class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
+											  <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+												<path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"></path>
+												<path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"></path>
+											  </svg>
+											</div>
+											<input id="member_email" class="formkit-input bg-gray-50 border border-gray-300text-sm rounded-lg focus:ring-zinc-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-orange-500 dark:focus:border-orange-500" name="email_address" aria-label="Email Address" placeholder="Your email address..." required="" type="email">
+										</div>
+										<button data-element="submit" class="formkit-submit">
+											<div class="formkit-spinner">
+												<div></div>
+												<div></div>
+												<div></div>
+											</div>
+											<span class="px-5 py-3 text-sm font-medium text-center bg-zinc-400 rounded-lg cursor-pointer hover:bg-zinc-300 focus:ring-4 focus:ring-orange-500 dark:bg-orange-600 dark:hover:bg-orange-500 dark:focus:ring-zinc-800">Subscribe</span>
+										</button>
+									</div>
+								</div>
+							</form>
+							<div class="text-sm font-medium">By subscribing, you agree with our <a rel="nofollow" href="#" class="text-orange-600 hover:underline">Terms of Service</a> and <a rel="nofollow" class="text-orange-600 hover:underline dark:text-orange-600" href="#">Privacy Policy</a>.</div>
+						</aside>
 					</section>
 					
 					
